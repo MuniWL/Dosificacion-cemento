@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#forecast-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.forecast-day {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.weather,
+.dosificacion {
+  width: 48%;
+}
+
+.dosificacion {
+  text-align: right;
+  font-weight: bold;
+}
